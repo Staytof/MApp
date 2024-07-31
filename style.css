@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.781);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-image: url(imgs/waves.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+.loginBox {
+    width: 355px;
+    height: 310px;
+    border: 1px solid transparent;
+    /* background-color: rgba(240, 255, 255, 0.452); */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding-left: 14px;
+}
+
+
+/* Media query para dispositivos com largura máxima de 450px */
+@media screen and (max-width: 450px) {
+
+    .login {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        bottom: 50px;
+    }
+    
+    .loginBox {
+        width: 250px;
+        height: auto;
+    }
+
+    input {
+        width: 100%;
+        font-size: 1em;
+    }
+    
+}
