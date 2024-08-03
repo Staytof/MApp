@@ -70,11 +70,12 @@ input {
     border: 1px solid white;
 }
 
-.rodape {
-    display: grid;
-    position: absolute;
-    bottom: 0;
-}
+    .rodape {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
 
 .footer {
     bottom: 0;
@@ -109,6 +110,13 @@ input {
     input {
         width: 100%;
         font-size: 1em;
+    }
+
+    .rodape {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
     }
 
 }
