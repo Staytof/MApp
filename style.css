@@ -111,9 +111,4 @@ input {
         font-size: 1em;
     }
 
-    .rodape {
-        display: grid;
-        position: absolute;
-        bottom: 0;
-    }
 }
