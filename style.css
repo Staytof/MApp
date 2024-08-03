@@ -20,16 +20,19 @@
     align-items: center;
     text-align: center;
 
-    background-image: url(waves.png);
+    background-color: white;
+
+    background-image: url(imgs/waves.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100%;
+    background-size: 167%;
 }
 
 .login {
 
     justify-content: center;
     align-items: center;
+    top: 0%;
 }
 
 .loginBox {
@@ -67,24 +70,26 @@ input {
     border: 1px solid white;
 }
 
-.footer {
+.rodape {
+    display: grid;
     position: absolute;
     bottom: 0;
-    color: rgb(255, 255, 255);
+}
+
+.footer {
+    bottom: 0;
+    color: #f1f1f3;
 }
 
 .redes {
-    position: absolute;
-    bottom: 0;
+    bottom: 30px;
+    color: #f3f4f7;
 }
 
-.redes img {
-    margin-top: 5px;
+.cacc {
+    background-color: #ff3569;
 }
 
-.Fpass {
-    font-style: inline;
-}
 
 /* Media query para dispositivos com largura máxima de 450px */
 @media screen and (max-width: 450px) {
@@ -104,17 +109,5 @@ input {
     input {
         width: 100%;
         font-size: 1em;
-    }
-
-    .footer {
-        position: absolute;
-        bottom: 0;
-        color: #5061ce;
-    }
-
-    .redes {
-        position: absolute;
-        bottom: 30px;
-        color: #5061ce;
     }
 }
