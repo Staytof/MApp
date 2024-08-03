@@ -110,4 +110,10 @@ input {
         width: 100%;
         font-size: 1em;
     }
+
+    .rodape {
+        display: grid;
+        position: absolute;
+        bottom: 0;
+    }
 }
